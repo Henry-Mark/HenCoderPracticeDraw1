@@ -12,6 +12,6 @@ HenCoder 绘制 1 练习项目
 
 项目是原有的作业框架，下面有两个截图，需要实现的代码已经添加：
 
-![](images/直方图.png)
-![](images/饼图.png)
+![](images/直方图.PNG)
+![](images/饼图.PNG)
 
