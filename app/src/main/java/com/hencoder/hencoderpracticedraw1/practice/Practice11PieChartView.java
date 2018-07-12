@@ -117,7 +117,6 @@ public class Practice11PieChartView extends View {
             float text_y = line_1_end_y;
 
 
-
             //椭圆四边的位置
             float rectLeft = (float) (x / 2 - radius + offset * Math.cos(halfAngle * Math.PI / 180));
             float rectRight = (float) (x / 2 + radius + offset * Math.cos(halfAngle * Math.PI / 180));
@@ -134,7 +133,7 @@ public class Practice11PieChartView extends View {
             path.lineTo(line_1_end_x, line_1_end_y);
             path.lineTo(line_2_end_x, line_2_end_y);
             canvas.drawPath(path, textPaint);
-            if ( Math.abs(halfAngle) <= 90) textPaint.setTextAlign(Paint.Align.LEFT);
+            if (Math.abs(halfAngle) <= 90) textPaint.setTextAlign(Paint.Align.LEFT);
             else textPaint.setTextAlign(Paint.Align.RIGHT);
             canvas.drawText(model.getTip(), text_x, text_y, textPaint);
 
